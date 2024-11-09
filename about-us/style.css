@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+
+.bg-box img {
+    width: 100%;
+    height: 50vh;
+    z-index: -1;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+
+  header::before{
+    position: absolute;
+    content: '';
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 50vh;
+    opacity: .5;
+  }
+  
+
+.h-text{
+    top: 100px;
+    right: 550px;
+    position: absolute;
+}
+
+.h-text h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    font-weight: bold;
+    color: #ffffff;
+    
+  }
+
+.about-us {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding: 90px 0;
+  background: #fff;
+}
+.pic {
+  height: auto;
+  width: 400px;
+  border-radius: 12px;
+}
+.about {
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text {
+  width: 540px;
+}
+.text h2 {
+  color: #333;
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.text h5 {
+  color: #333;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.text p {
+  color: #333;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+
+
+.news{
+    padding-bottom: 100px;
+}
+
+.container-news{
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+
+
+
+
+
+.card-news{
+    width: 430px;
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-top: 70px;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.30s;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card-news:hover{
+    box-shadow: none;
+    opacity: 0.9;
+}
+
+.card-news img{
+    height: 220px;
+}
+
+.card-news h4{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-right: 250px;
+}
+
+.card-news p{
+    padding: 0 1rem;
+    font-size: 13px;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
